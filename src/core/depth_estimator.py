@@ -5,16 +5,15 @@ import torch.nn as nn
 import numpy as np
 from typing import Optional, List, Tuple, Union
 from pathlib import Path
-import time
 
 from .device_manager import DeviceManager
 from .model_loader import ModelLoader
 from ..preprocessing.image_loader import ImageLoader
-from ..preprocessing.transforms import prepare_image_for_inference, prepare_batch_for_inference
+from ..preprocessing.transforms import prepare_image_for_inference
 from ..postprocessing.depth_processor import DepthProcessor
 from ..postprocessing.normalizer import DepthNormalizer
 from ..utils.logger import get_logger
-from ..utils.exceptions import ModelLoadError, PreprocessingError
+from ..utils.exceptions import ModelLoadError
 from ..utils.metrics import timer, PerformanceMetrics
 
 logger = get_logger(__name__)
