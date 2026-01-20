@@ -1,0 +1,13 @@
+{
+  "timestamp": "2026-01-19T23:32:15.089372",
+  "performance": {
+    "total_images": 3,
+    "total_time_ms": 537.7253330079839,
+    "avg_inference_ms": 179.24177766932794,
+    "min_inference_ms": 19.826582982204854,
+    "max_inference_ms": 495.07425000774674,
+    "avg_preprocessing_ms": 4.589777662962054,
+    "avg_postprocessing_ms": 4.4032223425650345,
+    "fps": 5.579056473345394
+  }
+}

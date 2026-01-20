@@ -1,0 +1,18 @@
+{
+  "scale_factor": 0.0031249988079075594,
+  "reference_distance": 1.0,
+  "reference_pixels": [
+    [
+      160,
+      240
+    ],
+    [
+      480,
+      240
+    ]
+  ],
+  "depth_unit": "relative",
+  "metric_unit": "meters",
+  "timestamp": "2026-01-19T23:39:10.300440",
+  "notes": null
+}
