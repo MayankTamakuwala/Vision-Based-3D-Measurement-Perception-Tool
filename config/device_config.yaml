@@ -1,0 +1,28 @@
+# GPU and Device Optimization Configuration
+
+# H100 GPU specific optimizations
+h100:
+  enabled: true
+  use_tf32: true  # TensorFloat-32 for faster matrix operations
+  mixed_precision: "fp16"  # Use FP16 for 3x speedup on Tensor Cores
+  cudnn_benchmark: true  # Find optimal convolution algorithms
+  cudnn_deterministic: false  # Disable for better performance
+
+# Memory management
+memory:
+  max_batch_size: 16  # H100 80GB can handle large batches
+  empty_cache_interval: 10  # Clear cache every N batches
+  pin_memory: true  # Faster CPU-GPU transfers
+  allow_growth: true  # Don't allocate all GPU memory upfront
+
+# Device fallback order
+device_priority:
+  - "cuda"  # NVIDIA GPUs
+  - "mps"   # Apple Silicon (M1/M2/M3)
+  - "cpu"   # CPU fallback
+
+# Performance tuning
+performance:
+  num_threads: 4  # CPU threads for data loading
+  prefetch_factor: 2  # Prefetch batches
+  persistent_workers: true  # Keep workers alive between epochs

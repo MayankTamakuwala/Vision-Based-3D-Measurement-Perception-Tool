@@ -1,0 +1,30 @@
+# MiDaS Model Configurations
+
+models:
+  DPT_Large:
+    hub_name: "intel-isl/MiDaS"
+    model_type: "DPT_Large"
+    input_size: 384
+    description: "Highest quality, slower inference"
+    memory_requirement: "~3GB"
+
+  DPT_Hybrid:
+    hub_name: "intel-isl/MiDaS"
+    model_type: "DPT_Hybrid"
+    input_size: 384
+    description: "Balanced quality and speed"
+    memory_requirement: "~2GB"
+
+  MiDaS_small:
+    hub_name: "intel-isl/MiDaS"
+    model_type: "MiDaS_small"
+    input_size: 256
+    description: "Fast inference, good for real-time"
+    memory_requirement: "~1GB"
+
+# Model selection recommendations
+recommendations:
+  high_quality: "DPT_Large"
+  balanced: "DPT_Hybrid"
+  real_time: "MiDaS_small"
+  low_memory: "MiDaS_small"

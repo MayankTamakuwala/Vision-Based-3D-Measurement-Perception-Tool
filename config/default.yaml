@@ -1,0 +1,23 @@
+model:
+  type: "DPT_Large"  # Options: DPT_Large, DPT_Hybrid, MiDaS_small
+  cache_dir: "./models"
+
+device:
+  auto_detect: true
+  preferred: "cuda"  # Options: cuda, mps, cpu
+  precision: "fp16"  # Options: fp32, fp16, bf16
+
+processing:
+  batch_size: 8
+  num_workers: 4
+
+output:
+  depth_format: "png"
+  colormap: "viridis"  # Options: viridis, plasma, jet, magma, inferno, turbo
+  save_overlay: true
+  save_metadata: true
+
+paths:
+  input_dir: "./data/input"
+  output_dir: "./data/output"
+  log_dir: "./logs"
