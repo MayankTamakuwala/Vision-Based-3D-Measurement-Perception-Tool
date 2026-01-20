@@ -1,7 +1,7 @@
 """Depth map normalization utilities."""
 
 import numpy as np
-from typing import Tuple, Optional, Dict
+from typing import Tuple, Dict
 
 from ..utils.logger import get_logger
 from ..utils.exceptions import PostprocessingError

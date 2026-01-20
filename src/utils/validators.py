@@ -3,7 +3,6 @@
 from pathlib import Path
 from typing import List, Tuple, Union
 import numpy as np
-from PIL import Image
 
 from .exceptions import InvalidInputError
 

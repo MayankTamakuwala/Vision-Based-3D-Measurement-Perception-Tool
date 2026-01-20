@@ -6,7 +6,7 @@ from typing import Tuple, Optional
 
 from ..utils.logger import get_logger
 from ..utils.exceptions import VisualizationError
-from ..utils.validators import validate_image_array, validate_depth_map
+from ..utils.validators import validate_image_array
 
 logger = get_logger(__name__)
 
@@ -97,7 +97,7 @@ class OverlayRenderer:
                 depth_colored = cv2.resize(
                     depth_colored,
                     (int(depth_colored.shape[1] * image.shape[0] / depth_colored.shape[0]),
-                     image.shape[0])
+                    image.shape[0])
                 )
 
             if add_separator:

@@ -2,8 +2,7 @@
 
 import numpy as np
 import plotly.graph_objects as go
-from typing import Optional, Tuple, Union
-import matplotlib.pyplot as plt
+from typing import Optional, Tuple
 
 from ..utils.logger import get_logger
 from ..utils.exceptions import VisualizationError

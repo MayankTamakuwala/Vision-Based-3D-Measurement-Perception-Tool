@@ -7,8 +7,8 @@ from typing import Tuple, List, Optional, Dict, Union
 from dataclasses import dataclass, asdict
 
 from ..utils.logger import get_logger
-from ..utils.exceptions import CalibrationError, MeasurementError
-from ..utils.validators import validate_depth_map, validate_point
+from ..utils.exceptions import CalibrationError
+from ..utils.validators import validate_depth_map
 
 logger = get_logger(__name__)
 

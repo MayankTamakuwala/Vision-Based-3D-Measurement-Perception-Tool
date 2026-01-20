@@ -8,7 +8,6 @@ from datetime import datetime
 
 from ..utils.logger import get_logger
 from ..utils.exceptions import ExportError
-from ..utils.validators import validate_directory
 
 logger = get_logger(__name__)
 

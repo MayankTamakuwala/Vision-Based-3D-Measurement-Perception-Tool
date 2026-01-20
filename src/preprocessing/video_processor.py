@@ -8,7 +8,6 @@ from datetime import timedelta
 
 from ..utils.logger import get_logger
 from ..utils.exceptions import PreprocessingError
-from ..utils.validators import validate_image_array
 
 logger = get_logger(__name__)
 

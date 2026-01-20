@@ -4,7 +4,6 @@ import pytest
 import numpy as np
 import sys
 from pathlib import Path
-import tempfile
 
 sys.path.insert(0, str(Path(__file__).parent.parent.parent))
 

@@ -2,9 +2,8 @@
 
 import cv2
 import numpy as np
-import matplotlib.pyplot as plt
 import matplotlib.cm as cm
-from typing import Optional, Union
+from typing import Optional
 
 from ..utils.logger import get_logger
 from ..utils.exceptions import VisualizationError
