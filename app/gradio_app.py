@@ -141,7 +141,7 @@ def handle_point_click(image: np.ndarray, evt: gr.SelectData) -> Tuple[np.ndarra
         cv2.putText(
             annotated, f"P{len(selected_points)}",
             (x + 10, y - 10),
-            cv2.FONT_HERSHEY_SIMPLEX, 0.5, (255, 0, 0), 2
+            cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 0, 0), 2
         )
 
         measurement_text = f"**Selected Points:** {len(selected_points)}\n\n"
@@ -151,7 +151,7 @@ def handle_point_click(image: np.ndarray, evt: gr.SelectData) -> Tuple[np.ndarra
             p1, p2 = selected_points[0], selected_points[1]
 
             # Draw line
-            cv2.line(annotated, p1, p2, (0, 255, 0), 2)
+            cv2.line(annotated, p1, p2, (0, 0, 0), 2)
 
             # Calculate distance
             distance = distance_calc.point_to_point_distance(
