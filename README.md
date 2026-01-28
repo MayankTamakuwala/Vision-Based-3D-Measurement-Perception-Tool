@@ -46,7 +46,7 @@ Perfect for AR/ML research, robotics perception, and computer vision portfolios.
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/Vision-Based-3D-Measurement-Perception-Tool.git
+git clone https://github.com/MayankTamakuwala/Vision-Based-3D-Measurement-Perception-Tool.git
 cd Vision-Based-3D-Measurement-Perception-Tool
 ```
 
