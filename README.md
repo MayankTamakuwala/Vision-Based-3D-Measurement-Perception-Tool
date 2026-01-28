@@ -292,9 +292,9 @@ Target performance on H100 GPU:
 - **UI**: Streamlit, Gradio (optional)
 - **Testing**: pytest, pytest-cov
 
-## License
+<!-- ## License
 
-MIT License - see LICENSE file for details
+MIT License - see LICENSE file for details -->
 
 ## Acknowledgments
 
