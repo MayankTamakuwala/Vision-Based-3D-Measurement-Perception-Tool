@@ -217,58 +217,6 @@ Vision-Based-3D-Measurement-Perception-Tool/
 └── docs/                     # Documentation
 ```
 
-<!-- ## Development Status
-
-**Phase 1: Foundation Setup** -> COMPLETED
-- Project structure and directory layout
-- Dependency management (requirements.txt)
-- Configuration system (YAML configs)
-- Utility modules (logger, exceptions, validators, metrics)
-- Package setup (setup.py)
-
-**Phase 2: Core Depth Estimation** -> COMPLETED
-- Device management and GPU optimization (MPS, CUDA, H100)
-- Model loading (MiDaS from torch.hub with caching)
-- Preprocessing pipeline (image loading, transforms)
-- Depth estimation engine with performance tracking
-- Postprocessing (normalization, smoothing, colormaps)
-
-**Phase 3: Visualization & Output** -> COMPLETED
-- Colorized depth map generation
-- Overlay rendering with transparency blending
-- Side-by-side comparison plots
-- JSON metadata export
-- Multi-format image saving (PNG, JPG, NPY)
-
-**Phase 4: Measurement Engine** -> COMPLETED
-- Point-to-point distance calculations
-- Region-based depth analysis
-- Scale calibration system with persistence
-- Object detection and segmentation
-- Annotated visualizations
-
-**Phase 5: Video & Real-Time Processing** -> COMPLETED
-- Video frame extraction with sampling strategies
-- Key-frame detection for scene changes
-- Real-time webcam capture with threading
-- Video output generation
-- Performance optimization for real-time inference
-
-**Phase 6: UI Development** -> COMPLETED
-- 3D point cloud visualization with Plotly
-- Gradio demo for quick interactive testing
-- Streamlit dashboard with multi-page interface
-- Interactive measurement tools
-- Export capabilities (PNG, JSON, PLY point clouds)
-
-**Phase 7: Testing & Documentation** -> COMPLETED
-- Comprehensive test suite (unit, integration, performance)
-- pytest configuration with fixtures and markers
-- Architecture documentation
-- User guide with examples
-- Example Jupyter notebooks
-- API documentation -->
-
 ## Testing
 
 ### Running Tests
@@ -354,9 +302,9 @@ MIT License - see LICENSE file for details
 - PyTorch Hub for model distribution
 - Open source computer vision community
 
-## Contributing
+<!-- ## Contributing
 
-Contributions welcome! Please open an issue or submit a pull request.
+Contributions welcome! Please open an issue or submit a pull request. -->
 
 <!-- ## Citation
 
