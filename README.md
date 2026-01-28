@@ -6,7 +6,7 @@ An ML-driven perception system that converts 2D images into 3D spatial understan
 
 | Input + Depth (Side-by-Side) | Depth Visualization |
 | --- | --- |
-| ![Input and depth output](docs/images/demo_input_depth_output.jpg) | ![Depth visualization](docs/images/demo_depth_visual.jpg) |
+| ![Input and depth output](docs/images/demo_input.jpg) | ![Depth visualization](docs/images/demo_depth_visual.jpg) |
 
 | Depth Overlay | Point-to-Point Measurement | 3D Point Cloud |
 | --- | --- | --- |
