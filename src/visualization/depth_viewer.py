@@ -25,7 +25,7 @@ class DepthViewer:
     def __init__(
         self,
         point_skip: int = 1,
-        depth_scale: float = 1.0,
+        depth_scale: float = 100.0,
         invert_depth: bool = False
     ):
         """
